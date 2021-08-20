@@ -4,7 +4,7 @@ Rectangulo r = new Rectangulo(200, 100);
 void setup() {
   r.lados[1] = 30;
   
-  size(600, 400);
+  size(600, 600);
   background(0);
   strokeWeight(0);
 }
