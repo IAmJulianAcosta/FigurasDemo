@@ -1,6 +1,9 @@
 import java.util.Arrays;
 
 public class Rectangulo extends Figura {
+  float x;
+  float y;
+  
   Rectangulo(float ancho, float alto) { 
     super(new float[]{ancho, alto, ancho, alto});
   }
@@ -28,5 +31,10 @@ public class Rectangulo extends Figura {
     
   private float alto() {
     return lados[3];
+  }
+  
+  public void mover() {
+    x++;
+    y--;
   }
 }
