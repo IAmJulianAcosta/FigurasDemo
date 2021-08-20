@@ -20,6 +20,7 @@ public class Rectangulo extends Figura {
   }
   
   public void dibujar(float x, float y) {
+    rotate(this.angulo);
     rect(x, y, this.ancho(), this.alto()); 
   }
   
