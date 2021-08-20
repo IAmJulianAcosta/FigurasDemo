@@ -21,4 +21,9 @@ public class Cuadrado extends Rectangulo {
     this.dibujar();
     line(100, 100, lados[0], lados[0]);
   }
+  
+  public void mover() {
+    x--;
+    y++;
+  }
 }
