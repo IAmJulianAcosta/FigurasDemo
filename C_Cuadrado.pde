@@ -10,7 +10,7 @@ public class Cuadrado extends Rectangulo {
   }
   
   public void dibujar() {
-    rect(100, 100, lados[0], lados[0]); 
+    rect(0, 0, lados[0], lados[0]); 
   }
   
   public void dibujar(float x, float y) {

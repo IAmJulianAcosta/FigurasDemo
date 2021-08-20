@@ -23,10 +23,10 @@ public class Rectangulo extends Figura {
 
   
   private float ancho() {
-    return lados[0];
+    return lados[2];
   }
     
   private float alto() {
-    return lados[1];
+    return lados[3];
   }
 }
