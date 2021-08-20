@@ -14,7 +14,7 @@ public class Rectangulo extends Figura {
   }
   
   public void dibujar() {
-    rect(100, 100, this.ancho(), this.alto()); 
+    rect(0, 0, this.ancho(), this.alto()); 
   }
   
   public void dibujar(float x, float y) {
