@@ -1,6 +1,8 @@
 import java.util.Arrays;
 
 public class Rectangulo extends Figura {
+  float angulo = 0;
+  
   Rectangulo(float ancho, float alto) { 
     super(new float[]{ancho, alto, ancho, alto});
   }
@@ -20,7 +22,10 @@ public class Rectangulo extends Figura {
   public void dibujar(float x, float y) {
     rect(x, y, this.ancho(), this.alto()); 
   }
-
+  
+  public void rotar() {
+    angulo += 0.01;
+  }
   
   private float ancho() {
     return lados[2];
