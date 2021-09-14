@@ -23,7 +23,7 @@ public class Cuadrado extends Rectangulo {
   }
   
   float lado() {
-    return lados[4];
+    return lados[0];
   }
   
   public void mover() {
