@@ -1,8 +1,8 @@
-Cuadrado c =  new Cuadrado(200);
-Rectangulo r = new Rectangulo(200, 100);
+Cuadrado cuadrado =  new Cuadrado(200);
+Rectangulo rectangulo = new Rectangulo(200, 100);
 
 void setup() {
-  r.lados[1] = 30;
+  rectangulo.lados[1] = 30;
   
   size(600, 600);
   background(0);
@@ -10,6 +10,6 @@ void setup() {
 }
 
 void draw() {
-  c.dibujar(30, 10);
-  r.dibujar(300, 10);
+  cuadrado.dibujar(30, 10);
+  rectangulo.dibujar(300, 10);
 }
