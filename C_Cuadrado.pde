@@ -6,20 +6,24 @@ public class Cuadrado extends Rectangulo {
   }
 
   public float area() {
-    return pow(lados[0], 2);
+    return pow(lado(), 2);
   }
   
   public void dibujar() {
-    rect(10, 10, lados[0], lados[0]); 
+    rect(10, 10, lado(), lado()); 
   }
   
   public void dibujar(float x, float y) {
-    rect(x, y, lados[0], lados[0]); 
+    rect(x, y, lado(), lado()); 
   }
  
   public void dibujarConDiagonal() {
     this.dibujar();
-    line(100, 100, lados[0], lados[0]);
+    line(100, 100, lado(), lado());
+  }
+  
+  float lado() {
+    return lados[4];
   }
   
   public void mover() {
