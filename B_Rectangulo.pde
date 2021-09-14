@@ -28,7 +28,7 @@ public class Rectangulo extends Figura {
   }
   
   public void rotar() {
-    angulo += 0.01;
+    angulo -= 0.01;
   }
   
   private float ancho() {
