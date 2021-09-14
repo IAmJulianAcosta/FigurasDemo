@@ -40,7 +40,7 @@ public class Rectangulo extends Figura {
   }
   
   public void mover() {
-    x++;
     y--;
+    x--;
   }
 }
